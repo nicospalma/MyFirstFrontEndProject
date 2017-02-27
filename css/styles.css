@@ -1,0 +1,88 @@
+.centertext{
+    text-align: center;
+}
+.padding{
+    padding: 10px;
+}
+.marginbot{
+    margin-bot: 10px;
+}
+
+.margintop{
+    margin-top: 10px;
+}
+.marginleft{
+    margin-left: 10px;
+}
+
+.marginright{
+    margin-right: 10px;
+}
+
+.border{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.firstcolor{
+    background-color: silver;
+}
+.secondcolor{
+    background-color: #d3d3d3;
+}
+.thirdcolor{
+    background-color: beige;
+}
+
+.fourthcolor{
+    background-color: #ffffff;
+}
+
+.sectheader{
+    padding: 20px 100px 20px 100px ;
+}
+
+.sectfooter{
+    padding: 20px 100px 20px 100px ;
+    clear: both;
+}
+
+#bodyheader{
+}
+
+#head1nav{
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+}
+
+#sectnav{
+    padding: 200px 100px 200px 100px ;
+}
+
+#leftsection{
+    float: left;
+    width: 27.5%;
+    margin-top: 10px;
+    padding: 0px 10px 10px 10px;
+    vertical-align: top;
+}
+
+#rightsection{
+    margin-top: 10px;
+    padding: 0px 10px 10px 10px;
+    width: 68%;
+    float: right;
+
+}
+
+#articlerightp{
+    float:left;
+    padding: 40px 300px 40px 300px;
+}
+
+#articlerightaside{
+    float:right;
+    padding: 40px 100px 40px 100px;
+}
+
+
