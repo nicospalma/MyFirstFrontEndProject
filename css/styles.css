@@ -39,11 +39,11 @@
 }
 
 .sectheader{
-    padding: 20px 100px 20px 100px ;
+    padding: 20px 0px 20px 0px ;
 }
 
 .sectfooter{
-    padding: 20px 100px 20px 100px ;
+    padding: 20px 0px 20px 0px ;
     clear: both;
 }
 
@@ -56,7 +56,7 @@
 }
 
 #sectnav{
-    padding: 200px 100px 200px 100px ;
+    padding: 227px 0px 227px 0px ;
 }
 
 #leftsection{
@@ -77,12 +77,14 @@
 
 #articlerightp{
     float:left;
-    padding: 40px 300px 40px 300px;
+    padding: 40px 0px 40px 0px;
+    width: 68%
 }
 
 #articlerightaside{
     float:right;
-    padding: 40px 100px 40px 100px;
+    padding: 40px 0px 40px 0px;
+    width: 30%;
 }
 
 
