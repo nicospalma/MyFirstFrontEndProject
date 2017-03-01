@@ -1,0 +1,113 @@
+$defaultMargin: 5px;
+$defaulPadding: 10px 0 10px 0;
+$marginTop: 10px 0 0 0;
+$alignCenter: center;
+$floatClear: both;
+
+
+@mixin defaultBorder{
+  border: 2px solid black;
+  border-radius: 6px;
+  text-align: $alignCenter;
+}
+
+@mixin boxLayOut( $margin, $padding){
+  margin: $margin;
+  padding: $padding;
+}
+
+@mixin defaultDivide($display, $margin, $padding, $width){
+  display: $display;
+  margin: $margin;
+  padding: $padding;
+  width: $width;
+}
+
+@mixin changeColor($color) {
+  background-color:$color;
+}
+
+
+body{
+  @include defaultBorder;
+  @include changeColor(grey);
+}
+
+#bodyheader{
+  @include boxLayOut( $defaultMargin, $defaulPadding);
+  @include defaultBorder;
+  @include changeColor(#a8a8a8);
+
+  nav{
+    @include boxLayOut( $defaultMargin, $defaulPadding);
+    @include defaultBorder;
+    @include changeColor(#FFFFFF);
+  }
+}
+
+#leftsection{
+  @include defaultBorder;
+  @include changeColor(#a8a8a8);
+  @include defaultDivide(inline-block,$defaultMargin, 0 10px 10px 10px, 24.5% );
+  header{
+    @include defaultBorder;
+    @include changeColor(#FFFFFF);
+    @include boxLayOut( 5px 0 5px 0, $defaulPadding);
+  }
+  nav{
+    @include defaultBorder;
+    @include changeColor(#FFFFFF);
+    @include boxLayOut( 5px 0 5px 0, 227px 0px 227px 0px);
+  }
+  footer{
+    @include defaultBorder;
+    @include changeColor(#FFFFFF);
+    @include boxLayOut( $defaultMargin, $defaulPadding);
+  }
+}
+
+#rightsection{
+  display: inline-block;
+  @include defaultBorder;
+  @include changeColor(#a8a8a8);
+  @include defaultDivide( inline-block, 5px 5px 5px 0, 0 10px 10px 10px, 70% );
+
+  header{
+    @include defaultBorder;
+    @include changeColor(#a8a8a8);
+  }
+}
+
+
+#articlerightp{
+  @include defaultBorder;
+  @include defaultDivide(left,$defaultMargin, 40px 0 40px 0, 50%)
+}
+
+#articlerightaside{
+  @include defaultDivide(right,$defaultMargin, 40px 0 40px 0, 30%)
+}
+
+
+#bodyfooter{
+  clear: $floatClear;
+  @include boxLayOut( 0 5px 5px 5px, $defaulPadding);
+  @include defaultBorder;
+  @include changeColor(#a8a8a8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

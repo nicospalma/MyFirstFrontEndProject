@@ -1,0 +1,115 @@
+/* line 31, ../sass/custom.scss */
+body {
+  border: 2px solid black;
+  border-radius: 6px;
+  text-align: center;
+  background-color: grey;
+}
+
+/* line 36, ../sass/custom.scss */
+#bodyheader {
+  margin: 5px;
+  padding: 10px 0 10px 0;
+  border: 2px solid black;
+  border-radius: 6px;
+  text-align: center;
+  background-color: #a8a8a8;
+}
+/* line 41, ../sass/custom.scss */
+#bodyheader nav {
+  margin: 5px;
+  padding: 10px 0 10px 0;
+  border: 2px solid black;
+  border-radius: 6px;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+/* line 48, ../sass/custom.scss */
+#leftsection {
+  border: 2px solid black;
+  border-radius: 6px;
+  text-align: center;
+  background-color: #a8a8a8;
+  display: inline-block;
+  margin: 5px;
+  padding: 0 10px 10px 10px;
+  width: 24.5%;
+}
+/* line 52, ../sass/custom.scss */
+#leftsection header {
+  border: 2px solid black;
+  border-radius: 6px;
+  text-align: center;
+  background-color: #FFFFFF;
+  margin: 5px 0 5px 0;
+  padding: 10px 0 10px 0;
+}
+/* line 57, ../sass/custom.scss */
+#leftsection nav {
+  border: 2px solid black;
+  border-radius: 6px;
+  text-align: center;
+  background-color: #FFFFFF;
+  margin: 5px 0 5px 0;
+  padding: 227px 0px 227px 0px;
+}
+/* line 62, ../sass/custom.scss */
+#leftsection footer {
+  border: 2px solid black;
+  border-radius: 6px;
+  text-align: center;
+  background-color: #FFFFFF;
+  margin: 5px;
+  padding: 10px 0 10px 0;
+}
+
+/* line 69, ../sass/custom.scss */
+#rightsection {
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 6px;
+  text-align: center;
+  background-color: #a8a8a8;
+  display: inline-block;
+  margin: 5px 5px 5px 0;
+  padding: 0 10px 10px 10px;
+  width: 70%;
+}
+/* line 75, ../sass/custom.scss */
+#rightsection header {
+  border: 2px solid black;
+  border-radius: 6px;
+  text-align: center;
+  background-color: #a8a8a8;
+}
+
+/* line 82, ../sass/custom.scss */
+#articlerightp {
+  border: 2px solid black;
+  border-radius: 6px;
+  text-align: center;
+  display: left;
+  margin: 5px;
+  padding: 40px 0 40px 0;
+  width: 50%;
+}
+
+/* line 87, ../sass/custom.scss */
+#articlerightaside {
+  display: right;
+  margin: 5px;
+  padding: 40px 0 40px 0;
+  width: 30%;
+}
+
+/* line 92, ../sass/custom.scss */
+#bodyfooter {
+  clear: both;
+  margin: 0 5px 5px 5px;
+  padding: 10px 0 10px 0;
+  border: 2px solid black;
+  border-radius: 6px;
+  text-align: center;
+  background-color: #a8a8a8;
+}
